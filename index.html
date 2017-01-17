@@ -4,7 +4,16 @@
 	<title>reficul31 || My Page</title>
 </head>
 
-<body>
-
+<body ng-app='mainApp'>
+<p><a ui-sref='home'>Home</a></p>
+<p><a ui-sref='blog'>Blog</a></p>
+<p><a ui-sref='projects'>Projects</a></p>
+<div ui-view>Loading...</div>
+<script type="text/javascript" src="static/lib/angular.min.js"></script>
+<script type="text/javascript" src="static/lib/angular-route.min.js"></script>
+<script type="text/javascript" src="static/lib/angular-resource.min.js"></script>
+<script type="text/javascript" src="static/lib/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="static/js/app.js"></script>
+<script type="text/javascript" src="static/js/controllers.js"></script>
 </body>
 </html>
