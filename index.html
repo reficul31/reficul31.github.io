@@ -2,12 +2,34 @@
 <html>
 <head>
 	<title>reficul31 || My Page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+    <!-- FONTS CALLS -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Athiti|Josefin+Sans|Open+Sans+Condensed:300|PT+Sans+Narrow|Quicksand|Teko" rel="stylesheet">
+    <!--END FONTS CALLS -->
 </head>
 
 <body ng-app='mainApp'>
-<p><a ui-sref='home'>Home</a></p>
-<p><a ui-sref='blog'>Blog</a></p>
-<p><a ui-sref='projects'>Projects</a></p>
+<header class="header row">
+        <div class="col-md-1 nav-container" id="nav-container-tab0">
+            <img src="static/img/icon2.svg" alt="logo" height="95%">
+        </div>
+        <a ui-sref='home'><div class="col-md-3 nav-container" id="nav-container-tab1"><p>HOME</p></div></a>
+        <a ui-sref='blog'><div class="col-md-3 nav-container" id="nav-container-tab2"><p>BLOG</p></div></a>
+        <a ui-sref='projects'><div class="col-md-3 nav-container" id="nav-container-tab3"><p>PROJECTS</p></div></a>
+        <div class="col-md-1 nav-container" id="nav-container-tab4"><img src="static/img/git-icon.png" alt="git-icon" height="80%"></div>
+        <div class="col-md-1 nav-container" id="nav-container-tab5"><img src="static/img/twitter-icon.png" alt="twitter-icon" height="80%"></div>
+    </header>
 <div ui-view>Loading...</div>
 <script type="text/javascript" src="static/lib/angular.min.js"></script>
 <script type="text/javascript" src="static/lib/angular-route.min.js"></script>

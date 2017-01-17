@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	overflow-x: hidden;
+}
+/*NAVBAR CSS*/
+header{
+	background-color: black;
+	height:6vh;
+	width:100%;
+}
+.nav-container{
+	transition: background-color 0.6s ease;
+	border-right: 1px solid white;
+	text-align: center;
+	height: 6vh;
+	font-family: 'Teko', sans-serif;
+	color:#BDBDBD;
+	font-size:1.3em;
+}
+.nav-container img{
+	margin-top:4px;
+}
+.nav-container p{
+	margin-top:14px;
+}
+.nav-container:hover{
+	cursor: pointer;
+	color:white;
+}
+#nav-container-tab0:hover{
+}
+#nav-container-tab1:hover{
+	background-color:#00FFD4 ;
+}
+#nav-container-tab2:hover{
+	background-color:#00FFD4 ;
+}
+#nav-container-tab3:hover{
+	background-color: #00FFD4;
+}
+#nav-container-tab4:hover{
+	background-color: #B37615;
+}
+#nav-container-tab5:hover{
+	background-color: #33c6f4;
+}
+a{
+	color:#BDBDBD;
+	text-decoration: none;
+}
+/*NAVBAR CSS*/
